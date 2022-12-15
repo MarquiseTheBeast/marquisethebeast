@@ -1,0 +1,274 @@
+body {
+    background-color: rgb(42, 47, 65);
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    margin-bottom: 12px;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+
+h3 {
+    color: white;
+    font-size: 175%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#bgPicture {
+    background-image: url(images/bg.jpg);
+    background-position: 100% 80%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#nameLogo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pfp {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#PC {
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#PCspecs {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 135%;
+    line-height: 200%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+}
+
+nav {
+    background-color: rgb(44, 44, 49);
+}
+
+nav ul {
+    display: flex;
+    margin-top: 7px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav a {
+    transition: ease-out 0.2s;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a:hover {
+    color: #7ea5ff
+}
+
+#p1 {
+    text-align: center;
+    color: white;
+    height: 50%;
+    width: 55%;
+    margin: auto;
+    font-size: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#email {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#copyright {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #pfp {
+        width: 100px;
+        height: auto;
+        margin-top: 6px;
+    }
+    #bgPicture {
+       height: 125px;
+    }
+
+    #copyright {
+        font-size: 50%;
+    }
+
+    #nameLogo {
+        font-size: 150%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 175%;
+        position: relative;
+        bottom: 12px;
+    }
+
+    nav ul li {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 100%;
+    }
+
+    #PCspecs {
+        font-size: 100%;
+    }
+
+    #p1 {
+        width: 60%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #nameLogo {
+        font-size: 125%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    h2 {
+        font-size: 125%;
+        position: relative;
+        bottom: 8px;
+    }
+
+    #PCspecs {
+        font-size: 65%;
+    }
+
+    #p1 {
+        font-size: 65%;
+        width: 65%;
+    }
+
+    nav ul li {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-size: 65%;
+    }
+
+    #copyright {
+        font-size: 30%;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    #pfp {
+        width: 100px;
+        height: auto;
+        margin-top: 6px;
+    }
+    #bgPicture {
+        height: 125px;
+    }
+
+    #nameLogo {
+        font-size: 150%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #p1 {
+        width: 65%;
+        font-size: 65%;
+        bottom: 10px;
+    }
+
+    h2 {
+        bottom: 10px;
+        font-size: 150%;
+    }
+
+    nav ul li {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 100%;
+    }
+
+    #copyright {
+        font-size: 50%;
+    }
+} */
+
+
+
